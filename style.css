@@ -1,0 +1,169 @@
+* {
+  font-family: "Impact", cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-bottom: 25%;
+}
+
+p {
+  padding: 25px;
+  line-height: 35px;
+  font-size: 35px;
+  text-align: center;
+}
+
+#header {
+  overflow: hidden;
+  background-color: #000000;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+#price-match {
+  float: right;
+  width: 100px;
+  height: 100px;
+}
+
+#risk-free {
+  float: right;
+  width: 100px;
+  height: 100px;
+  padding-right: 50px;
+}
+
+#oldGuy {
+  height: 550px;
+  width: 50%;
+  margin-right: 2%;
+  padding-left: 20px;
+  float: left;
+}
+
+#contactform {
+  text-align: center;
+  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+  ;
+  float: right;
+  width: 200px;
+  width: 42%;
+  float: left;
+  height: 550px;
+  box-shadow: 5px 10px #000000;
+}
+
+#main-container {
+  padding-right: 30px;
+}
+
+#logo {
+  padding-right: 100px;
+  width: 1100px;
+  height: 220px;
+}
+
+#contactform h1 {
+  font-family: Arial;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#contactform form {
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 20px;
+}
+
+input {
+  font-family: Arial;
+  position: absolute;
+  right: 200px;
+  height: 20px;
+  width: 300px;
+  float: right;
+}
+
+#btn {
+  font-family: Arial;
+  width: 305px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.text {
+  float: left;
+  font-family: Arial;
+}
+
+form br {
+  line-height: 50px;
+}
+
+#bigBackground {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding-bottom: 200px;
+  position: absolute;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%
+  }
+  50% {
+    background-position: 100% 19%
+  }
+  100% {
+    background-position: 0% 82%
+  }
+}
+
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%
+  }
+  50% {
+    background-position: 100% 19%
+  }
+  100% {
+    background-position: 0% 82%
+  }
+}
+
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%
+  }
+  50% {
+    background-position: 100% 19%
+  }
+  100% {
+    background-position: 0% 82%
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%
+  }
+  50% {
+    background-position: 100% 19%
+  }
+  100% {
+    background-position: 0% 82%
+  }
+}
